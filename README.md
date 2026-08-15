@@ -61,3 +61,5 @@ An interactive, modular **Open Source Intelligence (OSINT) REPL** framework buil
 ```bash
 git clone [https://github.com/alpharomanticlesscharacterlessdelta/C0rps3.git](https://github.com/alpharomanticlesscharacterlessdelta/C0rps3.git)
 cd C0rps3/C0rps3
+'''
+### 2. Install the 
