@@ -61,5 +61,32 @@ An interactive, modular **Open Source Intelligence (OSINT) REPL** framework buil
 ```bash
 git clone [https://github.com/alpharomanticlesscharacterlessdelta/C0rps3.git](https://github.com/alpharomanticlesscharacterlessdelta/C0rps3.git)
 cd C0rps3/C0rps3
-'''
-### 2. Install the 
+
+## Step 2: Set Up a Virtual Environment (Recommended)
+
+# Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+##Step 3: Install Dependencies
+pip install -r requirements.txt
+
+##Step 4: Configure API Keys and Environment Variables
+Copy the example .env file to create your local .env:
+
+
+cp .env.example .env
+
+Open .env in your preferred editor and configure your API tokens:
+
+SHODAN_API_KEY=your_shodan_key_here
+TWITTER_BEARER=your_twitter_bearer_token_here
+HIBP_API_KEY=your_hibp_key_here
+
+##Step 5: Launch C0rps3
+
+python main.py
