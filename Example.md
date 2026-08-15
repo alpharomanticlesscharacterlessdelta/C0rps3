@@ -1,10 +1,9 @@
 # Workflow And Examples
 
 ### 1. Investigate domain DNS & registration
-'''bash
 C0rps3> dns target.com
 C0rps3> whois target.com
-'''
+
 ### 2. Check IP infrastructure and geolocation
 C0rps3> geo 8.8.8.8
 C0rps3> shodan host 8.8.8.8
